@@ -6,8 +6,9 @@ authors = ["alextanhongpin <alextan220990@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
 ollama = "^0.2.1"
+pyautogen = "^0.2.29"
 
 
 [build-system]
